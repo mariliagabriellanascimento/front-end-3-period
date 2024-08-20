@@ -1,0 +1,44 @@
+* {
+    font-family: Arial;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    margin-left: 20px;
+}
+
+p {
+    color: white;
+    margin-left: 20px;
+}
+
+.esconde {
+    background:hsl(0, 0%, 7%);
+    max-width: none;
+    max-height: none;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.fakebutton {
+    background:#f8ba3f;
+    max-width: max-content;
+    max-height: max-content;
+    border-radius: 4px;
+    padding: 15px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+span {
+    color:#f1cc50;
+    ;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
