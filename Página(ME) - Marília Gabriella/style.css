@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+}
+
+body {
+  font-family: Arial;
+  background: #f7f7f7;
+}
+
+h1 {
+  text-align: center;
+  font-family: Verdana;
+}
+
+#tvtgm {
+  font-size: 64px;
+  color: #c6c6c6;
+}
+
+a {
+  text-decoration: none;
+  color: #c6c6c6;
+  background: white;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.fakebutton {
+  text-decoration: none;
+  color: white;
+  background: #ee2211;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+  border-radius: 4px;
+}
+
+.protheusgrid1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-self: center;
+  max-width: 1000px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.protheusgrid2 {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  justify-self: center;
+  max-width: 1000px;
+  padding: 10px;
+  gap: 10px;
+}
+
+.itens {
+  padding: 20px;
+}
+
+#descrevendo {
+  background: white;
+  display: flex;
+  padding: 50px;
+  justify-content: end;
+  gap: 20px;
+  text-align: end;
+  align-items: end;
+  flex-wrap: wrap;
+}
+
+.vtgns {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: auto 1fr;
+  justify-self: center;
+  padding: 5px;
+}
+
+#vantagens {
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+/* ESTILO DAS IMAGENS E ICONES */
+
+#robo {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}
+
+#ia{
+  max-width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#vlcd{
+  max-width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#rstrdr{
+  max-width: 100%;
+  height: auto;
+  background: white;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  text-align: end;
+  align-items: center;
+  flex-wrap: wrap;
+}
