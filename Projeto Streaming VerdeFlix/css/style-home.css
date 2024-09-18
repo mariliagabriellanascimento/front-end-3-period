@@ -6,6 +6,7 @@
 
 body {
     font-family: 'Poppins', sans-serif;
+    max-width: 1000px;
 }
 
 p{
@@ -16,12 +17,10 @@ p{
 ul {
     list-style-type: none;
     display: flex;
-    align-items: right;
 }
 
 li {
     display: flex;
-    
     align-items: center;
 }
 
@@ -35,9 +34,10 @@ a {
 
 input {
     font-size: 15px;
-    border: none;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 10px;
     padding: 10px;
-    width: 100%;
+    width: 300px;
 }
 
 .size-logo {
@@ -48,20 +48,26 @@ input {
     margin-left: 15px;
 }
 
+.perfil {
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
 .size-6 {
     margin-right: 10px;
 }
 
 .navegacao {
+    align-items: center;
     display: flex;
 }
 
 .cabecalho {
+    display: flex;
     position: fixed;
-    padding: 0 20px;
+    padding: 0 40px;
     background-color: white;
     z-index: 1000;
-    display: flex;
     width: 100%;
 }
 
@@ -69,6 +75,18 @@ input {
     margin-right: 20px;
 }
 
+.navegacaosecundaria {
+    display: flex;
+}
+
+.segundanav {
+    display: flex;
+}
+
 .sublistanavegacaodireita {
     margin-right: 20px;
+}
+
+.barra {
+    padding: 0 100px;
 }
