@@ -8,6 +8,11 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
+p{
+    margin-right: 30px;
+    font-size: 18px;
+}
+
 ul {
     list-style-type: none;
     display: flex;
@@ -16,7 +21,8 @@ ul {
 
 li {
     display: flex;
-    margin-right: 20px;
+    
+    align-items: center;
 }
 
 a {
@@ -25,6 +31,25 @@ a {
     align-self: center;
     font-size: 20px;
     text-align: center;
+}
+
+input {
+    font-size: 15px;
+    border: none;
+    padding: 10px;
+    width: 100%;
+}
+
+.size-logo {
+    margin-right: 20px;
+}
+
+.size-lupa {
+    margin-left: 15px;
+}
+
+.size-6 {
+    margin-right: 10px;
 }
 
 .navegacao {
@@ -37,6 +62,13 @@ a {
     background-color: white;
     z-index: 1000;
     display: flex;
-    align-items: left;
     width: 100%;
+}
+
+.sublistanavegacaoesquerda {
+    margin-right: 20px;
+}
+
+.sublistanavegacaodireita {
+    margin-right: 20px;
 }
