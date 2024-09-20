@@ -7,11 +7,9 @@
 body {
     font-family: 'Poppins', sans-serif;
     width: 100%;
-}
-
-p {
-    margin-right: 30px;
-    font-size: 18px;
+    max-width: 1000px; 
+    margin: 0 auto;
+    background-color: #f4f4f4;
 }
 
 ul {
@@ -41,10 +39,6 @@ input {
     width: 300px;
 }
 
-.size-logo {
-    margin-right: 20px;
-}
-
 .size-lupa {
     margin-left: 15px;
 }
@@ -60,6 +54,7 @@ input {
 
 .navegacao {
     display: flex;
+    max-width: 1000px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -68,11 +63,13 @@ input {
 .cabecalho {
     display: flex;
     position: fixed;
-    padding: 0 40px;
     background-color: white;
     z-index: 1000;
+    max-width: 1000px;
     width: 100%;
     align-items: center;
+    margin: 0 auto; 
+    padding: 0 20px;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
 }
 
@@ -81,7 +78,7 @@ input {
 }
 
 .barra {
-    padding: 0 100px;
+    padding: 0px;
     display: flex;
     align-items: center;
 }
@@ -102,3 +99,159 @@ input {
     align-items: center;
     margin-left: 10px;
 }
+
+.filme-destaque {
+    background-image: url('/Projeto\ Streaming\ VerdeFlix/img/lagoa-verde.jpg');
+    padding: 40px 20px; 
+    border-radius: 10px; 
+    margin: auto;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    height: 500px; 
+    overflow: hidden; 
+    position: relative; 
+}
+
+.filme-info {
+    position: absolute;
+    bottom: 20px;
+    left: 20px; 
+    color: white; 
+    z-index: 1; 
+}
+
+.filme-info h1 {
+    font-size: 36px; 
+    margin-bottom: 10px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.filme-info .ano-span {
+    display: inline-block;
+    font-size: 14px; 
+    background: #474747;
+    border-radius: 4px;
+    padding: 6px 8px; 
+    margin-bottom: 15px; 
+}
+
+.filme-info p {
+    background-color: rgba(255, 247, 247, 0.226);
+    border-radius: 10px;
+    font-size: 16px; 
+    line-height: 1.5; 
+    margin-bottom: 15px;
+    margin-right: 20px;
+    padding: 10px;
+    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.fakebutton {
+    display: inline-block;
+    text-decoration: none;
+    background: rgb(60, 117, 86);
+    color: white;
+    padding: 10px 20px; 
+    border-radius: 4px;
+}
+
+
+.top-3, .filmes, .series {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.top-filmes, .grade-filmes, .grade-series {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.filme, .serie {
+    position: relative;
+    width: 30%;
+}
+
+.filme img, .serie img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.filme-top img {
+    width: 300px; 
+    height: 400px; 
+    object-fit: cover; 
+    border-radius: 10px; 
+}
+
+.titulo {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.grade-top-3 {
+    display: flex;
+    justify-content: center;
+}
+
+.top-filmes {
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+
+.top-filmes .filme-top {
+    position: relative;
+    text-align: center;
+    margin: 20px;
+    
+}
+
+.top-filmes .filme-top img {
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+    z-index: 2;
+    position: relative;
+}
+
+.top-filmes .numero {
+    position: absolute;
+    top: 140px;
+    left: -60px;   
+    color: grey;
+    padding: 15;
+    border-radius: 50%;
+    font-size: 175px;
+    z-index: 1;
+}
+
+.ver-todos {
+    text-align: center;
+    justify-self: center;
+    margin-top: 20px;
+    color: #000;
+    text-decoration: none;
+    background-color: #7dda6b;
+    width: 60px;
+    padding: 10px;
+    border-radius: 6px;
+    align-items: center;
+    margin: auto;
+}
+
+.botao{
+    text-align: center;
+}
+
+.rodape {
+    background-color: #ffffff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); 
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+
