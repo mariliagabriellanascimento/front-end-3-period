@@ -11,55 +11,6 @@ body {
     color: #333;
     max-width: 1000px;
     margin: 0 auto;
-    margin-bottom: 20px;
-    padding-bottom: 100px;
-}
-
-.filme-comentario {
-    background-color: white;
-    padding: 20px;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
-.serie-info {
-    display: flex;
-    margin-bottom: 20px;
-    position: relative;
-    width: 100%;
-
-}
-.fundo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('/Projeto\ Streaming\ VerdeFlix/img/film/arctic-foxes.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.4; 
-    z-index: 0; 
-}
-.capa{
-    position: relative;
-    z-index: 1; 
-    opacity: 1;
-    margin: 0;
-}
-
-.poster {
-    max-width: 300px;
-    margin-right: 20px;
-}
-
-.info-text {
-    flex: 1;
-    position: relative;
-    z-index: 1;
-    margin-bottom: 50px;
-    margin-top: 80px;
 }
 
 h1 {
@@ -71,6 +22,51 @@ p {
     margin-bottom: 8px;
 }
 
+.filme-comentario {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    padding-top: 80px;
+    padding-top: 80px;
+}
+
+.filme-info {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+}
+
+.fundo {
+    position: absolute;
+    top: 0;
+    left: -20px;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Projeto\ Streaming\ VerdeFlix/img/film/arctic-foxes.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4; 
+    z-index: 0; 
+}
+
+.capa {
+    position: relative;
+    z-index: 1; 
+}
+
+.poster {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.info-text {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+}
+
 .trailer-link {
     display: inline-block;
     background-color: rgb(60, 117, 86);
@@ -80,12 +76,8 @@ p {
     text-decoration: none;
 }
 
-.comentarios {
-    margin-top: 20px;
-}
-
 .comentarios h2 {
-    margin-bottom: 10px;
+
     font-size: 20px;
 }
 
@@ -97,4 +89,10 @@ p {
     text-decoration: none;
     border-radius: 5px; 
     margin-top: 10px;
+}
+
+.rodape {
+    text-align: center;
+    margin-top: 20px;
+    padding: 20px 0;
 }
