@@ -1,51 +1,100 @@
+@import url('style-home.css');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Poppins', sans-serif;
-    background-color: #f8f9fa;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
 }
 
-h1{
-    size: 60px;
-    text-align: center;
-}
-
-.filmes {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+.filme-comentario {
+    background-color: white;
     padding: 20px;
     max-width: 1000px;
     margin: 0 auto;
-    border-radius: 8px;
 }
 
-.filme {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    text-align: center;
-}
-
-.filme img {
+.serie-info {
+    display: flex;
+    margin-bottom: 20px;
+    position: relative;
     width: 100%;
-    height: 200px;
-    display: block;
+
+}
+.fundo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('/Projeto\ Streaming\ VerdeFlix/img/film/arctic-foxes.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4; 
+    z-index: 0; 
+}
+.capa{
+    position: relative;
+    z-index: 1; 
+    opacity: 1;
+    margin: 0;
 }
 
-.filme a {
+.poster {
+    max-width: 300px;
+    margin-right: 20px;
+}
+
+.info-text {
+    flex: 1;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 8px;
+}
+
+.trailer-link {
+    display: inline-block;
+    background-color: rgb(60, 117, 86);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
     text-decoration: none;
+}
+
+.comentarios {
+    margin-top: 20px;
+}
+
+.comentarios h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.comentar-link {
+    display: inline-block;
+    background-color: #7dda6b;
     color: black;
-}
-
-.titulo {
-    font-size: 16px;
-    padding: 8px;
-    background-color: #f0f0f0;
-    text-align: center;
-}
-
-.duracao {
-    font-size: 14px;
-    padding: 4px;
-    text-align: center;
-    background-color: #d1e0e0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px; 
+    margin-top: 10px;
 }
