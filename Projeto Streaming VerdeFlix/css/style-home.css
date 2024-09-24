@@ -112,7 +112,7 @@ input {
 }
 
 .imagem-fundo {
-    background-image: url('/Projeto\ Streaming\ VerdeFlix/img/film/lagoa-verde.jpg');
+    background-image: url('../img/film/lagoa-verde.jpg');
     opacity: 0.6; 
     position: absolute; 
     top: 0; 

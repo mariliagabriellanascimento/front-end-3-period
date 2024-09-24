@@ -50,7 +50,7 @@ p {
     left: 0;
     width: 100%;
     height: 100%;
-    background-image: url('/Projeto\ Streaming\ VerdeFlix/img/serie/salsichinha.jpg');
+    background-image: url('../img/serie/salsichinha.jpg');
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
