@@ -14,7 +14,7 @@ p {
 /* IMAGENS */
 img {
     max-width: 100%;
-
+    object-fit: cover;
 }
 
 .titulorobo {
@@ -34,10 +34,17 @@ a {
     text-align: center;
     color: #c6c6c6;
     background: white;
+    border-radius: 6px;
+    border: 1px  solid white;
     padding: 10px 25px;
 }
 
+a:hover {
+    border: 1px solid #ee2211;
+}
+
 /* MENU */
+
 .menu {
     display: flex;
     justify-content: center;
@@ -49,6 +56,7 @@ a {
 /* SPAN */
 
 span {
+    display: block; /*  colocar display none quando fizer a responsividade */
     padding: 2px 25px;
     background: #ee2211;
     position: absolute;
@@ -65,7 +73,7 @@ span {
 /* GRID */
 .grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 2fr 2fr;
     max-width: 1000px;
     margin: 0 auto;
     margin-top: 50px;
@@ -74,16 +82,16 @@ span {
 .griddescricao {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 55px;
     gap: 20px;
-    padding: 40px;
     align-items: end;
     text-align: end;
     margin: 0;
+    background: white;
 }
 
-.textoeimagem {
+.topicos {
     align-content: center;
-    background: white;
 }
 
 .fakebutton {
@@ -98,21 +106,17 @@ span {
     justify-self: end;
 }
 
-/* FLEX */
-
-.flex {
-    display: flex;
-    max-width: 1000px;
-    margin: 0 auto;
-}
-
 .gridvantagens {
     display: grid;
     grid-template-columns: auto 1fr;
     justify-content: center;
     gap: 20px;
     padding: 40px 40px;
+    border-left: 3px solid white;
+}
 
+.gridvantagens:hover {
+    border-left: 3px solid #ee2211;
 }
 
 .vantagens {
