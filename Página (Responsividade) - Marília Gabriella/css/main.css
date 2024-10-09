@@ -1,0 +1,79 @@
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.flex {
+    display:flex;
+    max-width: 1000px; 
+    margin: 0 auto; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+.gridimg {
+    position: relative;
+    width: 100%; 
+    height: auto;
+}
+
+.griddescricao {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+    align-items: end;
+    text-align: end;
+    margin: 40px;
+    background: white;
+}
+
+.topicosgrid .topicosflex {
+    background: #f7f7f7;
+    align-content: center;
+}
+.topicosgrid:nth-child(1) {
+    background-color: white;
+}
+
+.topicosflex:nth-child(2) {
+    background-color: white;
+}
+
+.fakebutton {
+    text-decoration: none;
+    color: white;
+    background: #ee2211;
+    padding: 10px;
+    text-align: center;
+    margin: 0px;
+    width: 100px;
+    border-radius: 4px;
+    justify-self: end;
+}
+
+.titulovantagens {
+    font-size: 64px;
+    text-align: end;
+    padding-right: 40px;
+    color: #c6c6c6;
+}
+
+.gridvantagens {
+    padding: 40px;
+}
+
+.vantagens {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    border-left: 3px solid white;
+}
+
+.vantagens:hover {
+    border-left: 3px solid #ee2211;
+}

@@ -1,6 +1,10 @@
 ul {
     list-style-type: none;
     display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    flex-wrap: wrap;
     gap: 15px;
 }
 
@@ -10,25 +14,25 @@ li {
     
 }
 
-a {
+.fakelink {
     text-decoration: none;
     text-align: center;
     color: #c6c6c6;
     background: white;
     border-radius: 6px;
-    border: 1px  solid white;
+    border: 1px solid white;
     padding: 10px 25px;
     
 }
 
-a:hover {
+.fakelink:hover {
     border: 1px solid #ee2211;
 }
 
 .navegacao {
     display: flex;
     justify-content: center;
-    
     align-items: center;
-    flex-wrap: wrap;  
+    flex-wrap: wrap;
+    width: 100%;
 }

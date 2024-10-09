@@ -1,0 +1,12 @@
+.adereco {
+    position: absolute; 
+    top: 50px; 
+    left: -25px;
+}
+
+.adereco span {
+    display: block;
+    padding: 2px 25px;
+    background: #ee2211;
+    z-index: 1; 
+}

@@ -1,0 +1,53 @@
+@media (max-width: 1000px) {
+   
+    .flex {
+        flex-direction: column;
+    }
+
+    .titulovantagens {
+        text-align: center;
+        padding: 60px; 
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .adereco {
+        display: none;
+    }
+
+    .griddescricao {
+        align-items: start;
+        text-align: start;
+    }
+
+    .fakebutton {
+        justify-self: start;
+    }
+
+    .titulovantagens {
+        font-size: 3rem;
+        padding: 0px;
+    }
+
+    .gridvantagens {
+        padding: 30px;
+    }
+
+}
+
+@media (max-width: 400px) {
+
+    .titulovantagens {
+        font-size: 2 rem;
+    }
+
+    p {
+        font-size: 1 rem;
+    }
+}
