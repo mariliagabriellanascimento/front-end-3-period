@@ -1,0 +1,22 @@
+h1 {
+  color: blue;
+}
+
+.botaoCriar {
+  padding: 10px;
+}
+
+.botaoRemover {
+  padding: 10px;
+} 
+  
+.texto {
+  font-size: 36px;
+  color: black;
+  margin-left: 20px;
+}
+
+.destaque {
+  background-color: yellow;
+  padding-top: 0.25rem;
+}
